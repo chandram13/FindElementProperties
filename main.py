@@ -21,7 +21,7 @@ def find_Melting_Point(self):
 
 def find_Boiling_Point(self):
     boilingP = self.temperature * self.mass
-    print("The given boiling point of an element is: +" str(boilingP) + ".")
+    print("The given boiling point of an element is:" + str(boilingP) + ".")
 
 
 def find_Electric_Conductivity(radius,length,mV,A,length):
