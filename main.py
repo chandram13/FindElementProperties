@@ -37,6 +37,7 @@ def find_Electric_Conductivity(radius,length,mV,A,length):
     actualRestivity = resistivity * crossArea
 
     electricConductivity = 1 / actualRestivity
+
     print("The electric conductivity of an element is " + str(electricConductivity) + "in ohm meter inverse.")
 
 
