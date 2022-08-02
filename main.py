@@ -14,13 +14,13 @@ def findDensity(self,volume):
     print("The given density of an element is:" + str(pConstant) + ".")
 
 
-def find_Melting_Point(temperature):
-    meltingP = temperature * mass
+def find_Melting_Point(self):
+    meltingP = self.temperature * self.mass
     print("The given melting point of an element is:" + str(meltingP) + ".")
 
 
-def find_Boiling_Point(temperature):
-    boilingP = temperature * mass
+def find_Boiling_Point(self):
+    boilingP = self.temperature * self.mass
     print("The given boiling point of an element is: +" str(boilingP) + ".")
 
 
